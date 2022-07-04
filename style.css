@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+     font-family: 'Montserrat', sans-serif;
+     flex-wrap: wrap;
+     position: sticky;
+     top: 0;
+}
+nav ul{
+    height: 10vh;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}  
+nav{
+    display: inline-block;
+}
+nav ul li{
+    list-style: none;
+    padding: 70px;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100vw;
+    height: 80vh;
+    padding: 0px;
+    margin:  12px 0px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder; 
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 20vw;
+    height: 3vh;
+    border-radius: 6px;
+    margin: 0 10px;
+    padding: 0px 12px;
+}
+.btn{
+    cursor: pointer;
+}
+.container{
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 600px;
+
+
+   }
+   .img1{
+    display: flex;
+    width: 1000px;
+    height: 600px;
+   }
+   .box2{
+    background-color: rgb(123, 138, 180);
+    width:100vw;
+    height: 100px;
+    justify-content: right;
+    margin: auto;
+    animation-name: move;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+.one{
+    font-size: 60px;
+    justify-content: centre;
+}
+@keyframes move {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+    
+}
+.best-sell button{
+    background-color: rgb(107, 107, 107);
+    color: black;
+    width: 30px;
+    height: 70px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.container{
+    min-height: calc(100vh - 10vh - 12vh);
+    margin: 10px 0;
+}
+
+.slider{
+   display: flex;
+   justify-content: center;
+   
+    
+} 
+.card img{
+    margin: 20px 0px 0px 0px;
+}
+.card{
+    width:88vw;
+    margin: auto;
+}
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+.card-item{
+    display:inline-flex;
+    width: 12vw;
+    flex-direction: column;
+}
+.text-centre{
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.flex-all-center{
+    display: flex;
+justify-content: center;
+
+align-items: center;
+}
+.btn{
+    font-family: 'Lato', sans-serif;
+    background-color:#2874f0 ;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    cursor: pointer;
+   
+}
+.my-2 h2{
+    margin: 10px 0 0 0;
+    font-family: 'Lato', sans-serif;;
+}
+.box3 button{
+    background-color: black;
+    
+    justify-content: center;
+    position: relative;
+    top: 400px;
+    right: 300px;
+   
+
+   }
+   .box3 button a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-decoration: none;
+   }
+   container{
+    max-width: 1170px;
+    
+    margin: auto;
+}
+ul{
+    list-style:none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+    footer{
+        background-color: #24262b;
+    }
+    .footer-col{
+width: 25%;
+padding: 0px 20px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.footer-col ul li a{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color:#bbbbbb;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 40px;
+}
